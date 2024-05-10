@@ -179,7 +179,7 @@ elif selected_option == 'Composition':
 
     st.markdown("""Terdapat sedikit lebih banyak jumlah laki-laki dibandingkan perempuan dalam populasi yang diwakili dalam gambar tersebut.""")
 
-    st.subheader("Pie Chart Perbandingan Jumlah Data antar Race/Ethnicity")
+    st.subheader("Bar Plot Perbandingan Jumlah Data antar Race/Ethnicity")
     race_counts = df['race_ethnicity'].value_counts()
 
     # Plot diagram batang
@@ -194,7 +194,7 @@ elif selected_option == 'Composition':
 
     st.markdown("""Grafik tersebut menunjukkan jumlah siswa dalam kelompok ras/etnis yang berbeda, dengan kelompok E memiliki jumlah siswa terbanyak diikuti oleh kelompok D, C, B, dan A.""")
 
-    st.subheader("Pie Chart Perbandingan Jumlah Data antar Parental Level of Education")
+    st.subheader("Bar Plot Perbandingan Jumlah Data antar Parental Level of Education")
     education_counts = df['parental_level_of_education'].value_counts()
 
     # Plot diagram batang
